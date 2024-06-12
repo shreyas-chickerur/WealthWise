@@ -14,3 +14,18 @@ This tool is a modern web application built with the MERN stack (MongoDB, Expres
 - **Frontend**: React, Redux, Bootstrap
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB, Mongoose
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- MongoDB
+
+### Installation
+
+1. **Clone the repository:**
+    ```sh
+    git clone https://github.com/shreyas-chickerur/employment-tool.git
+    cd employment-tool
+    ```
