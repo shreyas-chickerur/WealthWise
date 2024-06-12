@@ -29,3 +29,24 @@ This tool is a modern web application built with the MERN stack (MongoDB, Expres
     git clone https://github.com/shreyas-chickerur/employment-tool.git
     cd employment-tool
     ```
+2. **Set up a virtual environment:**
+
+    It's recommended to use a virtual environment to manage dependencies. You can use `virtualenv` or `venv`.
+
+    - Using `virtualenv`:
+        ```sh
+        npm install -g virtualenv
+        virtualenv venv
+        source venv/bin/activate
+        ```
+
+    - Using `venv` (comes with Python 3.3+):
+        ```sh
+        python -m venv venv
+        source venv/bin/activate
+        ```
+3. **Install dependencies:**
+    ```sh
+    cd backend
+    npm install
+    ```
