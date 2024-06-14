@@ -211,4 +211,8 @@ For branches focusing specifically on backend development:
 | Documentation      | `docs/{documentation-name}`                 | `docs/api-endpoints`                      |
 | Testing            | `test/{testing-name}`                       | `test/add-unit-tests`                     |
 | Backend Feature    | `backend/feature/{feature-name}`            | `backend/feature/user-authentication`     |
-| Backen
+| Backend Bugfix     | `backend/bugfix/{bug-name}`                 | `backend/bugfix/login-error`              |
+| Backend Refactor   | `backend/refactor/{refactor-name}`          | `backend/refactor/db-schema`              |
+| Backend Chore      | `backend/chore/{task-name}`                 | `backend/chore/update-dependencies`       |
+
+By following these conventions, we ensure that our branches are well-organized and that their purposes are immediately clear to anyone working on the project.
