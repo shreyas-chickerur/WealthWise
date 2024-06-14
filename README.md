@@ -134,3 +134,81 @@ This project is licensed under the MIT License.
 **Contact:**
 
 For any questions or suggestions, please contact [schickerur2020@gmail.com].
+
+
+
+## Branch Naming Conventions
+
+To maintain a well-organized and clear structure in our project, we follow specific branch naming conventions. Below are the conventions we use for different types of branches:
+
+### Main Branches
+
+- **`main`**: The main production branch. This is the default branch where the source code of HEAD always reflects a production-ready state.
+- **`develop`**: The main development branch. All feature branches are merged into `develop` before being merged into `main`.
+
+### Feature Branches
+
+- **`feature/`**: Used for new features or enhancements.
+  - Example: `feature/user-authentication`, `feature/transaction-tracking`
+
+### Bugfix Branches
+
+- **`bugfix/`**: Used for bug fixes.
+  - Example: `bugfix/login-error`, `bugfix/transaction-sync`
+
+### Hotfix Branches
+
+- **`hotfix/`**: Used for urgent fixes that need to be applied to the production branch.
+  - Example: `hotfix/security-patch`, `hotfix/payment-gateway`
+
+### Release Branches
+
+- **`release/`**: Used to prepare for a new production release.
+  - Example: `release/1.0.0`, `release/2.1.0`
+
+### Chore Branches
+
+- **`chore/`**: Used for routine tasks or maintenance work.
+  - Example: `chore/update-dependencies`, `chore/code-refactoring`
+
+### Documentation Branches
+
+- **`docs/`**: Used for documentation updates or additions.
+  - Example: `docs/api-endpoints`, `docs/readme-update`
+
+### Testing Branches
+
+- **`test/`**: Used for creating or updating tests.
+  - Example: `test/add-unit-tests`, `test/integration-tests`
+
+### Backend Development Branches
+
+For branches focusing specifically on backend development:
+
+- **Feature Development**: `backend/feature/{feature-name}`
+  - Example: `backend/feature/user-authentication`, `backend/feature/transaction-api`
+  
+- **Bug Fixes**: `backend/bugfix/{bug-name}`
+  - Example: `backend/bugfix/login-error`, `backend/bugfix/payment-sync`
+  
+- **Refactoring**: `backend/refactor/{refactor-name}`
+  - Example: `backend/refactor/db-schema`, `backend/refactor/auth-middleware`
+
+- **Chore Tasks**: `backend/chore/{task-name}`
+  - Example: `backend/chore/update-dependencies`, `backend/chore/configure-logging`
+
+### Summary Table
+
+| Branch Type        | Naming Convention                           | Example                                   |
+|--------------------|---------------------------------------------|-------------------------------------------|
+| Main Branch        | `main`                                      | `main`                                    |
+| Development Branch | `develop`                                   | `develop`                                 |
+| Feature Development| `feature/{feature-name}`                    | `feature/user-authentication`             |
+| Bug Fixes          | `bugfix/{bug-name}`                         | `bugfix/login-error`                      |
+| Hotfix             | `hotfix/{hotfix-name}`                      | `hotfix/security-patch`                   |
+| Release            | `release/{version-number}`                  | `release/1.0.0`                           |
+| Chore Tasks        | `chore/{task-name}`                         | `chore/update-dependencies`               |
+| Documentation      | `docs/{documentation-name}`                 | `docs/api-endpoints`                      |
+| Testing            | `test/{testing-name}`                       | `test/add-unit-tests`                     |
+| Backend Feature    | `backend/feature/{feature-name}`            | `backend/feature/user-authentication`     |
+| Backen
