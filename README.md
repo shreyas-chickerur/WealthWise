@@ -93,7 +93,6 @@ The Financial Wellness Planner is a web application designed to help users manag
 
 2. **Connect Financial Accounts:**
     - Use Plaid to connect your bank accounts.
-    - Connect your Venmo account.
 
 3. **Track Transactions:**
     - View and categorize transactions from linked accounts.
