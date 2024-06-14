@@ -118,4 +118,19 @@ The Financial Wellness Planner is a web application designed to help users manag
 ### Frontend Structure
 
 - **Components:** React components for various parts of the application (e.g., Dashboard, Transactions, Goals).
-- **Redux Store:** St
+- **Redux Store:** State management for handling user data, transactions, goals, and recommendations.
+- **UI:** Material-UI components for a consistent and responsive design.
+
+## Contributing
+
+Contributions are welcome! Please create a pull request or open an issue to discuss improvements or features.
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+**Contact:**
+
+For any questions or suggestions, please contact [your-email@example.com].
