@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Financial Wellness Planner is a web application designed to help users manage their finances effectively. By integrating data from multiple sources such as bank accounts and Venmo, users can get a comprehensive view of their financial status, set financial goals, and receive personalized recommendations to improve their financial health.
+WealthWise is a web application designed to help users manage their finances effectively. By integrating data from multiple sources such as bank accounts and Venmo, users can get a comprehensive view of their financial status, set financial goals, and receive personalized recommendations to improve their financial health.
 
 ## Features
 
