@@ -1,4 +1,4 @@
-# Financial Wellness Planner
+# WealthWise
 
 ## Overview
 
