@@ -2,7 +2,13 @@ require('dotenv').config()
 
 const express = require("express")
 const mongoose = require("mongoose")
-const companiesRoutes = require('./routes/companies')
+const usersRoutes = require('./routes/users')
+const financialAccountsRoutes = require('./routes/financialAccounts')
+const goalRoutes = require('./routes/goals')
+const transactionRoutes = require('./routes/transactions')
+const recommendationRoutes = require('./routes/recommendations')
+
+
 
 // create the react app
 const app = express()
@@ -16,7 +22,12 @@ app.use((req, res, next) => {
 })
 
 // set up route handling
-app.use('/api/companies', companiesRoutes)
+app.use('/api/financialAccounts', financialAccountsRoutes)
+app.use('/api/users', usersRoutes)
+app.use('/api/goals', goalRoutes)
+app.use('/api/transactions', transactionRoutes)
+app.use('/api/recommendations', recommendationRoutes)
+
 
 // connect to db
 mongoose.connect(process.env.MONGO_URI)
@@ -27,6 +38,9 @@ mongoose.connect(process.env.MONGO_URI)
         })
     })
     .catch((error) => {console.log(error)
-    })
+    }
+)
+
+    
 
 
